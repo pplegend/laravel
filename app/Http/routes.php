@@ -11,7 +11,7 @@
 |
 */
 
-Route::controllers();
+Route::get('about','PagesController@about');
 
 
 Route::controllers([
