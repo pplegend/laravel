@@ -13,6 +13,10 @@
 
 Route::get('about','PagesController@about');
 
+Route::get('/', function()
+{
+    return 'Hello World';
+});
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
