@@ -13,6 +13,8 @@
 
 Route::get('about','PagesController@about');
 
+Route::get('contact','WelcomeController@contact');
+
 Route::get('/', function()
 {
     return 'Hello World';

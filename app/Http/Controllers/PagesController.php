@@ -15,4 +15,8 @@ class PagesController extends Controller {
           'last'  => 'zhang'
      ]);
     }
+
+    public function contact(){
+    	return view("pages.contact");
+    }
 }
