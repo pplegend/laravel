@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<h1>Contact me!</h1>
+	<h1>Contact me!{{ $name }}</h1>
 </body>
 </html>
 

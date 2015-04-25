@@ -16,7 +16,7 @@ class PagesController extends Controller {
      ]);
     }
 
-    public function contact(){
+    public function contact($name = 'zhang'){
     	return view("pages.contact");
     }
 }
