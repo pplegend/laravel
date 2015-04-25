@@ -17,6 +17,6 @@ class PagesController extends Controller {
     }
 
     public function contact($name = 'zhang'){
-    	return view("pages.contact");
+    	return view("pages.contact")->withName($name);
     }
 }
