@@ -13,7 +13,9 @@
 
 Route::get('about','PagesController@about');
 
-Route::get('contact','WelcomeController@contact');
+Route::get('contact/{id}',function($id){
+	return 'User'.$id;
+});
 
 Route::get('/', function()
 {
